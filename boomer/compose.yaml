@@ -1,6 +1,7 @@
 services:
   boomer:
     image: boomer-app:latest
+    platform: linux/arm64
     container_name: boomer
     build:
       context: .
