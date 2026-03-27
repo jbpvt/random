@@ -1,5 +1,6 @@
 services:
   boomer:
+    image: boomer-app:latest
     container_name: boomer
     build:
       context: .
